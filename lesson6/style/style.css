@@ -1,0 +1,17 @@
+#parisImage {
+    border: solid 5px #ff0000;
+    /* padding: 30px;  */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 30px;
+}
+
+.testContent {
+    background-color: aquamarine;
+}
+
+.imageDiv {
+    background-color: #0008ff;
+}

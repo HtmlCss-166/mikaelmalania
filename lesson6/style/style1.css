@@ -1,0 +1,49 @@
+#submitButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #4CAF50;
+    box-shadow: 8px 8px #3e413d56;
+
+
+}
+
+#userReview {
+    border-radius: 15px;
+    border: 2px solid #4CAF50;
+    padding: 15px;
+}
+
+/* Css pseudo class examples // ფსეუდო კლასის მაგალითები*/
+#submitButton:hover {
+        background-color: #419045;
+    }
+
+#submitButton:active {
+    background-color: #035809;
+}
+
+#userReview:focus {
+    background-color: #052216;
+    color: white;
+}
+
+/* css atribute styling placeholder */
+#userReview::placeholder {
+    color: #4CAF50;
+}
+
+/* Css before and after styling */
+
+#submitButton::before {
+    content: "Before";
+    background-color: aqua;
+}
+
+#submitButton::after {
+    content: "After";
+}
