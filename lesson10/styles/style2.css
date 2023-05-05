@@ -1,0 +1,32 @@
+:root {
+    --greenColor: #2a965b;
+    --redColor: #ccf500;
+    --globalFontSize: 16px;
+}
+
+body {
+    background-color: var(--greenColor);
+}
+
+p {
+    color: var(--redColor);
+    font-size: var(--globalFontSize);
+}
+
+p::first-line {
+    color: #965c2a
+}
+
+button {
+    color: var(--redColor);
+    font-size: var(--globalFontSize);
+}
+
+#paragraph1::before {
+    content: url("https://t4.ftcdn.net/jpg/01/36/70/67/360_F_136706734_KWhNBhLvY5XTlZVocpxFQK1FfKNOYbMj.jpg");
+
+}
+
+#paragraph1::after {
+    content: " and this is the end of the first paragraph";
+}

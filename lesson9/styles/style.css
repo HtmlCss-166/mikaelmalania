@@ -1,0 +1,67 @@
+nav {
+    background-color: #bf20b4;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 40px;
+    color: rgb(108, 219, 56);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraphs {
+    display: flex;
+    margin-left: 5px;
+}
+
+
+/* Phone Mode */
+@media (min-width:260px) and (max-width: 480px) {
+    .paragraphs {
+        display: block;
+    }
+    .paragraphs p {
+        color: blue;
+    }
+
+    nav {
+        margin-bottom: 10px;
+    }
+}
+
+/* tablet mode */
+@media (min-width:481px) and (max-width: 768px) {
+    .paragraphs {
+        display: flex;
+    }
+    .paragraphs p {
+        color: rgb(19, 143, 196);
+    }
+}
+
+/* laptop mode */
+@media (min-width:769px) and (max-width: 1280px) {
+    .paragraphs {
+        display: flex;
+    }
+    .paragraphs p {
+        color: yellow;
+    }
+}
+
+
+/* if min width or more */
+/* high resolution display mode */
+@media (min-width: 1281px) {
+    .paragraphs {
+        display: flex;
+    }
+    .paragraphs p {
+        color: red;
+    }
+}

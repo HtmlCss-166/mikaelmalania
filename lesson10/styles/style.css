@@ -1,0 +1,36 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.grid-container {
+    display: -ms-grid;
+    display: grid;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    padding: 15px;
+    background-color: cadetblue;
+    -ms-grid-columns: auto 20px auto 20px auto;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    background-color: aquamarine;
+    border: 1px solid rgb(17, 10, 10);
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-container-row-gap {
+    display: -ms-grid;
+    display: grid;
+    row-gap: 20px;
+    padding: 15px;
+    background-color: cadetblue;
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+}
