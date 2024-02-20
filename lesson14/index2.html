@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/style2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="#home" class="active">Logo</a>
+                <div id="myLinks">
+                    <a href="#news">News</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                </div>
+                <a class="icon" onclick="toggleMenuAction()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+            </nav>
+
+            <div style="padding-left: 18px;">
+                <h3>Horizontal Navigation bar example</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non animi labore, voluptatibus error quisquam aut maxime qui nesciunt mollitia reprehenderit veniam laborum nostrum explicabo vel neque. Soluta qui vero iste.</p>    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non animi labore, voluptatibus error quisquam aut maxime qui nesciunt mollitia reprehenderit veniam laborum nostrum explicabo vel neque. Soluta qui vero iste.</p>    
+            </div>
+
+        </header>
+
+        <script>
+            function toggleMenuAction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+
+                } 
+                else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+
+    </body>
+    
+</html>
